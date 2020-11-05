@@ -81,5 +81,17 @@ namespace TMDT4.Controllers
             var ListWeight = db.laptops.GroupBy(l => l.Weight).Select(l => l.Key);
             return PartialView(ListWeight);
         }
+        // Price low #case12
+        public ActionResult getPriceLow()
+        {
+            var priceLow = 0;
+            return PartialView(priceLow);
+        }
+        // Price height #case13
+        public ActionResult getPriceHight()
+        {
+            var priceHight = 0;
+            return PartialView(priceHight);
+        }
     }
 }

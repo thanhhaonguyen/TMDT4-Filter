@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -337,7 +338,8 @@
     <Content Include="Views\Laptop\getGPU.cshtml" />
     <Content Include="Views\Laptop\getOS.cshtml" />
     <Content Include="Views\Laptop\getWeight.cshtml" />
-    <Content Include="Views\Laptop\getPrice.cshtml" />
+    <Content Include="Views\Laptop\getPriceLow.cshtml" />
+    <Content Include="Views\Laptop\getPriceHight.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
